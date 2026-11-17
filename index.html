@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Accessible interactive Teachable Machine AI project.">
+<title>AI Learning Hub | Interactive Model</title>
+<style>
+:root{--navy:#14213d;--blue:#2563eb;--pale:#eaf2ff;--ink:#1f2937;--muted:#64748b;--line:#dbe4f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f5f8fc;color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit}.skip{position:absolute;top:-5rem;left:1rem;background:white;padding:.7rem;border-radius:.5rem}.skip:focus{top:1rem}
+header{background:white;border-bottom:1px solid var(--line)}.nav{max-width:1120px;margin:auto;padding:1rem 1.25rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.brand{display:flex;align-items:center;gap:.75rem;color:var(--navy);font-weight:800}.logo{width:2.5rem;height:2.5rem;display:grid;place-items:center;border-radius:.8rem;background:var(--blue);color:white}
+nav{display:flex;flex-wrap:wrap;gap:1.25rem}nav a{text-decoration:none;color:#475569;font-weight:650}nav a:hover{color:var(--blue);text-decoration:underline}
+main{max-width:1120px;margin:auto;padding:3.5rem 1.25rem 4rem}.intro{max-width:760px;margin:0 auto 2rem;text-align:center}
+.eyebrow{display:inline-block;padding:.35rem .8rem;border-radius:999px;background:var(--pale);color:#1d4ed8;font-size:.8rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+h1{margin:1rem 0 .7rem;color:var(--navy);font-size:clamp(2rem,5vw,3.3rem);line-height:1.12;letter-spacing:-.04em}.intro p{margin:0;color:var(--muted);font-size:1.08rem}
+.panel{overflow:hidden;background:white;border:1px solid var(--line);border-radius:1.25rem;box-shadow:0 18px 50px #14213d1a}
+.panel-head{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 1.25rem;border-bottom:1px solid var(--line)}.panel-head h2{margin:0;color:var(--navy);font-size:1.05rem}
+.tag{padding:.25rem .7rem;border-radius:999px;background:#ecfdf3;color:#166534;font-size:.78rem;font-weight:750}.embed-area{padding:1rem;background:#f8fafc}
+iframe{display:block;width:100%;min-height:620px;border:0;border-radius:.75rem;background:white}
+.fallback{margin-top:1rem;padding:1.2rem;text-align:center;background:white;border:1px dashed #b8c7dc;border-radius:.75rem}.fallback p{margin:0 0 1rem;color:var(--muted)}
+.button{display:inline-flex;justify-content:center;align-items:center;padding:.8rem 1.2rem;border-radius:.7rem;background:var(--blue);color:white;font-weight:750;text-decoration:none}.button:hover{background:#1d4ed8}
+a:focus-visible{outline:3px solid #f59e0b;outline-offset:3px}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem}
+.feature{padding:1.2rem;background:white;border:1px solid var(--line);border-radius:.9rem}.feature strong{display:block;margin-bottom:.35rem;color:var(--navy)}.feature p{margin:0;color:var(--muted);font-size:.93rem}
+footer{padding:1.5rem 1rem;text-align:center;color:var(--muted);font-size:.9rem}
+@media(max-width:700px){.nav{align-items:flex-start;flex-direction:column}main{padding-top:2.25rem}.panel-head{align-items:flex-start;flex-direction:column}iframe{min-height:560px}.features{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header><div class="nav"><div class="brand"><span class="logo" aria-hidden="true">✦</span><span>AI Learning Hub</span></div>
+<nav aria-label="Main navigation"><a href="#home">Home</a><a href="#try-model">Try the Model</a><a href="#about">About</a></nav></div></header>
+<main id="main">
+<section class="intro" id="home"><span class="eyebrow">Interactive AI experience</span><h1>Explore Artificial Intelligence</h1>
+<p>Welcome! Use the interactive Teachable Machine model below to explore how an AI model responds to the information it receives.</p></section>
+<section class="panel" id="try-model" aria-labelledby="model-title"><div class="panel-head"><h2 id="model-title">Interactive Teachable Machine Model</h2><span class="tag">Model ready to explore</span></div>
+<div class="embed-area"><iframe title="Embedded Teachable Machine AI model" src="https://teachablemachine.withgoogle.com/models/M5hpLzERc/" loading="lazy" allow="camera; microphone" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<div class="fallback"><p>If the model does not load inside this page, open it directly using the button below.</p><a class="button" href="https://teachablemachine.withgoogle.com/models/M5hpLzERc/" target="_blank" rel="noopener noreferrer">Open Teachable Machine</a></div></div></section>
+<section class="features" id="about" aria-label="Website design features">
+<article class="feature"><strong>Easy access</strong><p>Simple navigation and a clear link help visitors find and open the AI model quickly.</p></article>
+<article class="feature"><strong>Open to all</strong><p>Responsive layout, readable text, keyboard-friendly navigation, and a direct link support different visitors and devices.</p></article>
+<article class="feature"><strong>Design principles</strong><p>Consistent styling, contrast, alignment, balance, proximity, hierarchy, and simplicity create a clear experience.</p></article>
+</section></main><footer>AI Learning Hub · An accessible educational project</footer></body></html>
